@@ -22,14 +22,6 @@ end
 
 gem 'jquery-rails'
 
-# Use Haml for templates
-gem 'haml'
-
-# Use Ruby debugger
-group :development, :test do
-	gem 'debugger'
-end
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
