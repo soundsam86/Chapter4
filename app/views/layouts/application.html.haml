@@ -7,5 +7,6 @@
 		= csrf_meta_tags
 
 		%body
-			#main
-				=yield
+			#notice.message= flash[:notice]
+			#warning.message= flash[:warning]
+			=yield

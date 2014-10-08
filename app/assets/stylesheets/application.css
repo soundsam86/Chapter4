@@ -71,7 +71,9 @@
 	}
 
 	#notice, #warning {
-		background: rosybrown;
+		color: red;
+		text-align: center;
+		background: DarkSlateGrey;
 		margin: 1em 0;
 		padding: 4px;
 	}
